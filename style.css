@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+*{
+    font-family: 'short Stack';
+}
+
+body {
+    background: #2D85DE;
+}
+.main {
+    display: flex;
+    height: 100vh;
+}
+.login {
+    background-image: url('images/spec.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+.login h2 {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.loginform form {
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    box-shadow: 1px 0px 3px 1px rgb(0 0 0 / 20%);
+    padding: 25px;
+    border-radius: 10px;
+
+}
+.btn {
+    background: #2D85DE;
+    border-radius: 5px;
+    color: #ffff;
+    width: 100%;
+}
+
+@media screen and (max-width:650px) {
+    .fun {
+        display: none;
+    }
+    
+}
+@media screen and (max-width:860px) {
+    .fun {
+        display: none;
+    }
+}
+.error { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    flex-direction: column;
+    margin-top: 250px;
+}
+.img-error {
+    width: 100px;
+    height: 100px;
+    
+}
